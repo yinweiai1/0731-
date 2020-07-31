@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 10px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  align-items: center;
+  font-size: 2rem;
+}
+header img {
+  width: 60%;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section > div:nth-child(1) {
+  text-align: center;
+}
+section > div:nth-child(1) img {
+  width: 70%;
+}
+section > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 100%;
+}
+section > div:nth-child(2) > input:nth-child(1) {
+  text-align: center;
+  border: none;
+  border-bottom: 0.1rem solid orangered;
+  padding: 2rem 0;
+  width: 80%;
+  margin: 0 auto;
+  outline: none;
+}
+section > div:nth-child(2) > input:nth-child(2) {
+  text-align: center;
+  border: none;
+  border-bottom: 0.1rem solid orangered;
+  padding: 2rem 0;
+  width: 80%;
+  margin: 0 auto;
+  outline: none;
+}
+section > div:nth-child(3) {
+  text-align: center;
+  margin-top: 6rem;
+}
+section > div:nth-child(3) img {
+  width: 60%;
+}
+footer > div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 6rem;
+  font-size: 1.4rem;
+}
+footer > div:nth-child(1) > div:nth-child(1) {
+  margin-right: 3rem;
+}
+footer > div:nth-child(1) > div:nth-child(2) {
+  border-left: 0.1rem solid rgba(0, 0, 0, 0.6);
+}
+footer > div:nth-child(1) > div:nth-child(3) {
+  margin-left: 3rem;
+}
+footer > div:nth-child(2) {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 1rem;
+}
+footer > div:nth-child(3) {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem    ;
+}
+footer > div:nth-child(3) > img:nth-child(1) {
+  width: 15%;
+  margin-left: 5rem;
+}
+footer > div:nth-child(3) > img:nth-child(2) {
+  width: 15%;
+}
+footer > div:nth-child(3) > img:nth-child(3) {
+  width: 15%;
+  margin-right: 5rem;
+}
+.down {
+  position: absolute;
+  top: 30rem;
+  left: 30rem;
+  text-align: center;
+}
+.down img {
+  width: 80%;
+}
